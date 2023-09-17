@@ -101,25 +101,60 @@
                             <p>Tarne: <span class="text-primary">tasuta</span></p>
                             <p>Kokku: <span class="text-primary">15.99&#8364;</span></p>
                         </div>
-                        <div class="p-2 mx-auto">
-                            <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Maksa</a>
-                        </div>
+                
                     </div>
                     <div class="col-lg-6">
                     <!-- TODO! --->
+                        <div class="form-group">
+                            <label for="emailiAadress">E-mail:</label>
+                            <textarea class="form-control" id="temailiAadress" rows="1" placeholder="email@email.com"></textarea>
+                            <label for="telefoniNumber">Telefoninumber:</label>
+                            <textarea class="form-control" id="telefoniNumber" rows="1" placeholder="(+372)XXXXXXXX"></textarea>
+                            <label for="tarneviis">Tarneviis:</label>
+                            <select class="form-control" id="tarneviis">
+                                <option>Pakiautomaat</option>
+                                <option>Kuller</option>
+                                <option>Tulen ise järele</option>
+                            </select>
+                            <label for="makseviis">Makseviis:</label>
+                            <select class="form-control" id="makseviis">
+                                <option>SEB</option>
+                                <option>Swedbank</option>
+                                <option>LHV</option>
+                                <option>Luminor</option>
+                            </select>
+                        </div>
+                        <div class="p-2 mx-auto">
+                            <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Maksa</a>
+                        </div>
                     </div>           
                 </div>   
             </div>
         </section>
         <!-- jalus -->
-        <footer class="bg-light">
+        <footer class="bg-dark text-white py-4">
             <div class="container-fluid">
                 <div class="row">
-                    <!-- TODO! -->
-                    <div class="col-lg-12 text-center"><p>Footer</p></div>
+                    <div class="col-md-8 text-md-center">
+                
+                    <!-- TODO! --->
+                    <ul class="list-inline footer-links mb-0">
+                        <li><a href="#" class="text-white">© 09.09.2023</a>
+                        </li>
+                        <li><a href="#" class="text-white">tel: 5555555555</a>
+                        </li>
+                        <li><a href="#" class="text-white">@: email@email.com</a>
+                        </li>
+                        <div class="footer-sm">
+                            <a href="#"><img src="instagram-32.png" alt="instagram" /></a>
+                            <a href="#"><img src="pinterest-3-32.png" alt="pinterest" /></a>
+                        </div>
+                    </ul>
                 </div>
+
+                
             </div>
-        </footer>       
+        </footer>      
         <!-- jQuery, Popper.js, Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

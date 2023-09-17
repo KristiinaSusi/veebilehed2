@@ -35,4 +35,54 @@ section {
 footer {
     margin-top: 60px;
     padding: 5em;
+    text-align: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+.footer-sm img:hover {
+    transform: scale(1.1);
+    
+}
+
+.col-md-8, .col-md-4 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#karusell {
+    z-index: 1;
+}
+
+#karusell .carousel-item img {
+    object-fit: cover;
+    height: 300px;
+
+}
+
+
+
+.tutvustus {
+    padding-left: 10px;
+    padding-right: 10px;
 }
